@@ -23,7 +23,7 @@ async function iniciarSesion(){
        if (respuesta != 'FAIL'){
          localStorage.token = respuesta;
          localStorage.email = datos.email;
-         window.location.href = 'usuarios.html'
+         window.location.href = 'index.html'
        }else {
 
        alert ("las credenciales son inocretas ...  intente nuevamente");
